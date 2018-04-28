@@ -1,0 +1,13 @@
+<resources>
+
+    <!--QUITA LA TOOLBAR EN LAS VERSIONES 21 EN ADELANTE PORQUE TRAE UNA POR DEFECTO Y ESTO
+    INTERFIERE CON LA CUSTOM TOOLBAR QUE SETEAMOS Y HACE UN CRASH EN LA APLICACION-->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+</resources>
